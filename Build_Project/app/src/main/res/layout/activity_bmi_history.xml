@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/black">
+
+    <!-- Title for the BMI History -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BMI History"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp"
+        android:fontFamily="sans-serif-medium" />
+
+    <!-- BMI History ListView -->
+    <ListView
+        android:id="@+id/bmiHistoryListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:padding="8dp"
+        android:background="@color/lightBackground"
+        android:clipToPadding="false"
+        android:overScrollMode="never" />
+
+    <!-- No History Message -->
+    <TextView
+        android:id="@+id/noHistoryMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No BMI history available."
+        android:textSize="18sp"
+        android:textColor="@color/secondaryTextColor"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:fontFamily="sans-serif-light" />
+
+</LinearLayout>

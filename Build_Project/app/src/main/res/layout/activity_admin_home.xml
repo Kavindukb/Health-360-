@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/black"
+    android:gravity="center">
+
+    <!-- Title Text for Admin Home -->
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/addm" />
+
+    <TextView
+        android:id="@+id/adminHomeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif-medium"
+        android:paddingBottom="32dp"
+        android:text="Administrator Home"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+
+    <!-- View Users Button -->
+    <Button
+        android:id="@+id/viewUsersButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Users"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rounded_button_background"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:elevation="4dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif-medium"/>
+
+    <!-- Manage Exercises Button -->
+    <Button
+        android:id="@+id/manageExercisesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Exercises"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rounded_button_background"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:elevation="4dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif-medium"/>
+
+    <!-- View Feedbacks Button -->
+    <Button
+        android:id="@+id/viewFeedbacksButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Feedbacks"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rounded_button_background"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:elevation="4dp"
+        android:fontFamily="sans-serif-medium"/>
+
+
+
+</LinearLayout>
