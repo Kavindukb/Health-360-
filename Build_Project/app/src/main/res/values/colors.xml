@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary">#69655d</color>
+    <color name="buttonColor">#FF6200EE</color>
+    <color name="priceColor">#388E3C</color>
+    <color name="primaryTextColor">#333333</color>
+    <color name="lightGray">#F5F5F5</color>
+    <color name="buttonBackgroundColor">#FF6200EE</color>
+    <color name="buttonBorderColor">#FF3700B3</color>
+    <color name="yColor">#f26e02</color>
+
+    <color name="colorPrimary">#0D47A1</color>
+    <color name="colorsPrimary">#6a11cb</color>
+    <color name="colorAccent">#F50057</color>
+    <color name="colorAccents">#ff4081</color>
+    <color name="lightBackground">#F5F5F5</color>
+    <color name="holo_blue_dark">#FF6200EE</color>
+
+    <color name="colorGray">#757575</color>
+
+    <color name="secondaryTextColor">#9E9E9E</color>
+
+    <color name="primaryText">#333333 </color>
+    <color name="secondaryText">#757575</color>
+    <color name="priceText">#388E3C</color>
+    <color name="backgroundLight">#F0F0F0</color>
+    <color name="inputBackground">#E0E0E0</color>
+    <color name="gray">#AFAFAF</color>
+    <color name="asd">#b8d9d7</color>
+
+    <color name="outlineColor">#FFB0B0B0</color>
+    <color name="background_light">#f5f5f5</color>
+    <color name="purple_500">#6200EE</color>
+</resources>
